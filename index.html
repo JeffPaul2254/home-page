@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Header</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="header" id="myHeader">
+  <div class="row">
+    <div class="col1">
+      <img src="logo.jpg" class="logo" alt="GyanMatrix Logo">
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+      <span class="menuicon">Menu</span>
+      <i class="fa fa-bars"></i>
+    </a>
+    <div class="col2">
+      <ul>
+        <li><a class="menutext" href="#">About</a></li>
+        <li><a class="menutext" href="#">Why Us?</a></li>
+        <li><a class="menutext" href="#">Services <i class="fa fa-caret-down"></i></a></li>
+        <li><a class="menutext" href="#">Career <i class="fa fa-caret-down"></i></a></li>
+        <li><a class="menutext" href="#">More <i class="fa fa-caret-down"></i></a></li>
+      </ul>
+    </div>
+    <div class="col3">
+      <button class="button1" type="button">Contact Us</button>
+    </div>
+  </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
