@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -7,9 +11,9 @@ body {
   width: 100%;
   padding: 10px;
   background-color: white;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   overflow-x: hidden;
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 .row {
@@ -27,6 +31,14 @@ body {
 .logo {
   height: 40px;
   width: 200px;
+}
+
+.col2 {
+  margin-left: 360px;
+}
+
+.col3 {
+  margin-right: 80px;
 }
 
 .col2 ul {
@@ -47,13 +59,13 @@ body {
 }
 
 .button1 {
-  background-color: lightsalmon;
+  background-color: rgb(233, 183, 90);
   color: orangered;
   border-radius: 10px;
   font-size: 20px;
   cursor: pointer;
   border-color: transparent;
-  padding: 10px 32px;
+  padding: 12px 36px;
 }
 
 .button1:hover {
@@ -119,6 +131,22 @@ body {
     flex-direction: column;
     align-items: center;
   }
+
+  .col2 ul li {
+  width: 100%;
+}
+
+.col2 ul li a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.col2 ul li a i {
+  margin-left: 50px;
+}
 }
 
 .menuicon {
@@ -174,6 +202,22 @@ body {
     flex-direction: column;
     align-items: center;
   }
+
+  .col2 ul li {
+  width: 100%;
+}
+
+.col2 ul li a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.col2 ul li a i {
+  margin-left: 50px;
+}
 }
 
 .menuicon {
