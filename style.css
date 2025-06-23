@@ -82,9 +82,10 @@ body {
   text-decoration: none;
 }
 
-/* mobile view referenece : https://www.w3schools.com/howto/howto_js_topnav_responsive.asp */
+/* Phone view */
 
 @media screen and (max-width: 600px) {
+
   .col2,
   .col3 {
     display: none;
@@ -102,20 +103,26 @@ body {
   }
 
   .row {
-    flex-direction: row;
+    display: flex;
+    flex-direction: row;  
     justify-content: space-between;
-    align-items: center;
+    align-items: center;   
+    width: 100%;
+    padding: 0 10px;
   }
 
   .col1 {
-    margin-left: 10px;
+    margin: 0;
+    display: flex;
+    align-items: center;
   }
 
   .icon {
     display: block;
     font-size: 24px;
-    margin-right: 20px;
     cursor: pointer;
+    padding: 10px;
+    margin: 0;
   }
 
   .col2 ul {
@@ -135,24 +142,37 @@ body {
   .col2 ul li a {
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    padding: 10px 20px;
+    padding:10px 20px;
     color: black;
     text-decoration: none;
   }
 
+  .col2 ul li a.menutext {
+    justify-content: center;;
+    display: flex; 
+    position: relative;
+  }
+
   .col2 ul li a i {
-    margin-left: auto;
+    position: absolute;
+  right: 30px;
   }
 
   .col3 {
     justify-content: center;
     padding: 20px;
   }
+
+  .button1 {
+    background-color: white;
+    color: black;
+    align-items: center;
+  }
+  
 }
 
 /* Ipad view */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
   .col2,
   .col3 {
     display: none;
@@ -203,18 +223,110 @@ body {
   .col2 ul li a {
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    padding: 10px 20px;
+    padding:10px 20px;
     color: black;
     text-decoration: none;
   }
 
+  .col2 ul li a.menutext {
+    justify-content: center;;
+    display: flex; 
+    position: relative;
+  }
+
   .col2 ul li a i {
-    margin-left: auto;
+    position: absolute;
+  right: 30px;
   }
 
   .col3 {
     justify-content: center;
     padding: 20px;
+  }
+
+  .button1 {
+    background-color: white;
+    color: black;
+    align-items: center;
+  }
+}
+
+/* larger view */
+@media screen and (max-width: 1200px) {
+  .col2,
+  .col3 {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+  }
+
+  .header.responsive .col2,
+  .header.responsive .col3 {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    margin: auto;
+  }
+
+  .row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .col1 {
+    margin-left: 10px;
+  }
+
+  .icon {
+    display: block;
+    font-size: 24px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .col2 ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+  }
+
+  .col2 ul li {
+    width: 100%;
+  }
+
+  .col2 ul li a {
+    width: 100%;
+    display: flex;
+    padding:10px 20px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .col2 ul li a.menutext {
+    justify-content: center;;
+    display: flex; 
+    position: relative;
+  }
+
+  .col2 ul li a i {
+    position: absolute;
+  right: 30px;
+  }
+
+  .col3 {
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .button1 {
+    background-color: white;
+    color: black;
+    align-items: center;
   }
 }
