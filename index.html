@@ -9,30 +9,87 @@
 
 </head>
 <body>
+  <!-- Header Section -->
+  <header class="header" id="myHeader">
+    <div class="row">
+      <div class="col1">
+        <img src="images/logo.jpg" class="logo" alt="GyanMatrix Logo">
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+        <span class="menuicon">Menu</span>
+        <i id="menuIcon" class="fa fa-bars"></i>
+      </a>
+      <div class="col2">
+        <ul>
+          <li><a class="menutext" href="#">About</a></li>
+          <li><a class="menutext" href="#">Why Us?</a></li>
+          <li><a class="menutext" href="#">Services <i class="fa fa-caret-down"></i></a></li>
+          <li><a class="menutext" href="#">Career <i class="fa fa-caret-down"></i></a></li>
+          <li><a class="menutext" href="#">More <i class="fa fa-caret-down"></i></a></li>
+        </ul>
+      </div>
+      <div class="col3">
+        <button class="button1" type="button">Contact Us</button>
+      </div>
+    </div>
+  </header>
 
-<div class="header" id="myHeader">
-  <div class="row">
-    <div class="col1">
-      <img src="images/logo.jpg" class="logo" alt="GyanMatrix Logo">
+  <section class="banner">
+    <div class="w3-display-container">
+
+      <div class="mySlides w3-display-container">
+        <img src="images/slider1.jpg" />
+        <div class="w3-display-left w3-padding-large">
+          <h1 class="myH11">We Develop <br> Software, Augment <br> teams, and Setup <br> Offshore Operations.</h1>
+          <button class="get-in-touch1">Our Services -></button>
+        </div>
+      </div>
+
+      <div class="mySlides w3-display-container">
+        <img src="images/slider2.jpg" />
+        <div class="w3-display-left w3-padding-large">
+          <h1 class="myH11">A++ FullStack <br> Engineers with <br> Rich Technical Skills</h1>
+          <button class="get-in-touch1">Know Us -></button>
+        </div>
+      </div>
+
+      <div class="mySlides w3-display-container">
+        <img src="images/slider3.jpg" />
+        <div class="w3-display-left w3-padding-large">
+          <h1 class="myH11">Honest, Transparent, <br> Quality, and Cost <br> Effective Service <br> Provider.</h1>
+          <button class="get-in-touch1">Get in Touch -></button>
+        </div>
+      </div>
+
+      <div class="mySlides w3-display-container">
+        <img src="images/slider4.jpg" />
+        <div class="w3-display-left w3-padding-large">
+          <h1 class="myH11">Lets Build Success <br> Stories Together.</h1>
+          <button class="get-in-touch1">Let's talk -></button>
+        </div>
+      </div>
+
+      <div class="mySlides w3-display-container">
+        <img src="images/slider5.jpg" />
+        <div class="w3-display-left w3-padding-large">
+          <h1 class="myH11">Build Your Career <br> With GyanMatrix! <br> Join Our Tribe.</h1>
+          <button class="get-in-touch1">View Careers -></button>
+        </div>
+      </div>
+
+      <div class="arrow left-arrow" onclick="plusDivs(-1)">&#10094;</div>
+      <div class="arrow right-arrow" onclick="plusDivs(1)">&#10095;</div>
+
+      <div class="dot-container">
+        <span class="w3-badge demo" onclick="currentDiv(1)"></span>
+        <span class="w3-badge demo" onclick="currentDiv(2)"></span>
+        <span class="w3-badge demo" onclick="currentDiv(3)"></span>
+        <span class="w3-badge demo" onclick="currentDiv(4)"></span>
+        <span class="w3-badge demo" onclick="currentDiv(5)"></span>
+      </div>
     </div>
-    <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
-      <span class="menuicon">Menu</span>
-      <i id="menuIcon" class="fa fa-bars"></i>
-    </a>
-    <div class="col2">
-      <ul>
-        <li><a class="menutext" href="#">About</a></li>
-        <li><a class="menutext" href="#">Why Us?</a></li>
-        <li><a class="menutext" href="#">Services <i class="fa fa-caret-down"></i></a></li>
-        <li><a class="menutext" href="#">Career <i class="fa fa-caret-down"></i></a></li>
-        <li><a class="menutext" href="#">More <i class="fa fa-caret-down"></i></a></li>
-      </ul>
-    </div>
-    <div class="col3">
-      <button class="button1" type="button">Contact Us</button>
-    </div>
-  </div>
-</div>
+  </section>
+
 <script src="index.js"></script>
 </body>
 </html>
