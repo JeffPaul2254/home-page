@@ -1,0 +1,27 @@
+Errors that need fixing:
+
+Header section:
+
+-> Header is not sticky when scrolling.
+
+-> Dropdown menus are missing.
+
+-> Font style does not match the original website 
+
+-> Mobile menu opens without smooth animation.
+
+-> Logo size is too large on smaller screens.
+
+-> Header section size or margin from top and bottom are not the same as the original.
+
+-> The Contact Us button background color before hover do not match with the original
+
+-> The arrows for the dropdown menu is also the wrong icon
+
+Banner Section:
+
+-> When a banner moves from one slide to another there is no transition or animation and it is sudden
+
+-> In the button I have used (->) instead of and icon tag
+
+-> in responsiveness they are cramped or do not have the right spacings

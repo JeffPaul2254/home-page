@@ -5,10 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Responsive Header</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
+  <section class="header1">
   <!-- Header Section -->
   <header class="header" id="myHeader">
     <div class="row">
@@ -22,10 +24,36 @@
       <div class="col2">
         <ul>
           <li><a class="menutext" href="#">About</a></li>
-          <li><a class="menutext" href="#">Why Us?</a></li>
-          <li><a class="menutext" href="#">Services <i class="fa fa-caret-down"></i></a></li>
-          <li><a class="menutext" href="#">Career <i class="fa fa-caret-down"></i></a></li>
-          <li><a class="menutext" href="#">More <i class="fa fa-caret-down"></i></a></li>
+          <li><a class="menutext" href="#">Why Us</a></li>
+          <li class="dropdown">
+            <button class="dropbtn">Services  <i class='fa fa-angle-down' style='font-size:24px'></i></button>
+            <div class="dropdown-content">
+                 <a href="#">Full Stack Devolopment</a>
+                 <a href="#">SalesForce App Devolopment</a>
+                 <a href="#">Website Devolopment Company in Bangalore</a>
+                 <a href="#">Saas Devolopment Company in India</a>
+                 <a href="#">Mobile App Devolopment</a>
+                 <a href="#">SalesForce Mobile App Devolopment</a>
+                 <a href="#">SalesForce Devolopment</a>
+                 <a href="#">Data Engineering</a>
+                 <a href="#">Digital Transformation</a>
+                 <a href="#">Web Devolopment</a>
+                 <a href="#">E-Commerce Devolopment</a>
+            </div>
+          </li>
+            <li class="dropdown">
+            <button class="dropbtn">Career  <i class='fa fa-angle-down' style='font-size:24px'></i></button>
+            <div class="dropdown-content">
+                <a href="#">Internship</a>
+            </div>
+          </li>
+            <li class="dropdown">
+            <button class="dropbtn">More  <i class='fa fa-angle-down' style='font-size:24px'></i></button>
+            <div class="dropdown-content">
+                <a href="#">Digital resources</a>
+                 <a href="#">Gallery</a>
+            </div>
+          </li>
         </ul>
       </div>
       <div class="col3">
@@ -33,6 +61,7 @@
       </div>
     </div>
   </header>
+  </section>
 
   <section class="banner">
     <div class="w3-display-container">
@@ -41,7 +70,7 @@
         <img src="images/slider1.jpg" />
         <div class="w3-display-left w3-padding-large">
           <h1 class="myH11">We Develop <br> Software, Augment <br> teams, and Setup <br> Offshore Operations.</h1>
-          <button class="get-in-touch1">Our Services -></button>
+          <button class="get-in-touch1">Our Services  <i class="fa fa-arrow-right"></i></button>
         </div>
       </div>
 
@@ -49,7 +78,7 @@
         <img src="images/slider2.jpg" />
         <div class="w3-display-left w3-padding-large">
           <h1 class="myH11">A++ FullStack <br> Engineers with <br> Rich Technical Skills</h1>
-          <button class="get-in-touch1">Know Us -></button>
+          <button class="get-in-touch1">Know Us  <i class="fa fa-arrow-right"></i></button>
         </div>
       </div>
 
@@ -57,7 +86,7 @@
         <img src="images/slider3.jpg" />
         <div class="w3-display-left w3-padding-large">
           <h1 class="myH11">Honest, Transparent, <br> Quality, and Cost <br> Effective Service <br> Provider.</h1>
-          <button class="get-in-touch1">Get in Touch -></button>
+          <button class="get-in-touch1">Get in Touch  <i class="fa fa-arrow-right"></i></button>
         </div>
       </div>
 
@@ -65,7 +94,7 @@
         <img src="images/slider4.jpg" />
         <div class="w3-display-left w3-padding-large">
           <h1 class="myH11">Lets Build Success <br> Stories Together.</h1>
-          <button class="get-in-touch1">Let's talk -></button>
+          <button class="get-in-touch1">Let's talk  <i class="fa fa-arrow-right"></i></button>
         </div>
       </div>
 
@@ -73,7 +102,7 @@
         <img src="images/slider5.jpg" />
         <div class="w3-display-left w3-padding-large">
           <h1 class="myH11">Build Your Career <br> With GyanMatrix! <br> Join Our Tribe.</h1>
-          <button class="get-in-touch1">View Careers -></button>
+          <button class="get-in-touch1">View Careers  <i class="fa fa-arrow-right"></i></button>
         </div>
       </div>
 
