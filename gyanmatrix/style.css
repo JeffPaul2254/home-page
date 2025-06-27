@@ -212,7 +212,7 @@ body {
   }
 
   .col2 ul li a.menutext {
-    justify-content: center;;
+    justify-content: center;
     display: flex; 
     position: relative;
   }
@@ -232,7 +232,10 @@ body {
     color: black;
     align-items: center;
   }
-  
+
+  .dropbtn {
+    margin: auto;
+  }
 }
 
 /* Ipad view */
@@ -313,6 +316,10 @@ body {
     color: black;
     align-items: center;
   }
+
+  .dropbtn {
+    margin: auto;
+  }
 }
 /* Banner/slides section */
 
@@ -345,6 +352,7 @@ body {
   line-height: 1.4;
   margin-bottom: 20px;
   color: white;
+  text-shadow: 3px 3px 3px black;
 }
 
 .get-in-touch1 {
@@ -359,8 +367,8 @@ body {
 }
 
 .get-in-touch1:hover {
-  background-color: black;
-  color: white;
+  background-color: transparent;
+  color: black;
 }
 
 .arrow {
@@ -401,15 +409,15 @@ body {
   height: 12px;
   width: 12px;
   margin: 0 5px;
-  background-color: white;
-  border-radius: 50%;
+  background-color: transparent;
+  border-radius: 6px;
   display: inline-block;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .w3-badge.active {
-  background-color: orangered;
+  background-color: black;
 }
 
 @media screen and (max-width: 600px) {
@@ -437,7 +445,7 @@ body {
   }
 
   .dot-container {
-    bottom: 20px;
+    bottom: 10%
   }
 }
 
@@ -466,6 +474,6 @@ body {
   }
 
   .dot-container {
-    bottom: 20px;
+    bottom: 10%;
   }
 }
