@@ -42,7 +42,7 @@ body {
 }
 
 .main {
-  margin-left: 160px; /* Same as the width of the sidenav */
+  margin-left: 160px; 
   padding: 0px 25px;
 }
 
@@ -137,12 +137,20 @@ body {
   background-color: white;
 }
 
+.stats-cards:hover {
+   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
 .card {
   background-color: white;
   flex: 1;
   padding: 20px;
   border-radius: 16px;
   text-align: center;
+}
+
+.card:hover {
+   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .card-title {
@@ -205,31 +213,31 @@ body {
 }
 
 .badge-blue {
-  background-color: rgb(110, 110, 255);
-  color: white;
+  background-color: white;
+  color: rgb(110, 110, 255);
   padding: 4px 8px;
   text-align: center;
   border-radius: 10px;
-  border: blue 5px;
+  border: 2px solid rgb(110, 110, 255);
   font-size: 10px;
 }
 
 .badge-purple {
-  background-color: rgb(254, 123, 254);
-  color: white;
+  background-color: white;
+  color: rgb(254, 123, 254);
   padding: 4px 8px;
   text-align: center;
   border-radius: 10px;
-  border: purple 5px;
+  border: 2px solid rgb(254, 123, 254);
   font-size: 10px;
 }
 
 .badge-red {
-  background-color: rgb(255, 124, 124);
-  color: white;
+  background-color: white;
+  color: rgb(255, 124, 124);
   padding: 4px 8px;
   text-align: center;
   border-radius: 10px;
-  border: red 5px;
+  border: 2px solid rgb(255, 124, 124);
   font-size: 10px;
 }
