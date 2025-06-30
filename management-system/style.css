@@ -126,10 +126,110 @@ body {
     }
 
     .dashboard-header:hover {
-            box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
     }
 
-@media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
+.stats-cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px 0 50%;
+  gap: 20px;
+  background-color: white;
+}
+
+.card {
+  background-color: white;
+  flex: 1;
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 16px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.card-value {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.card-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 5px;
+}
+
+.icon-blue {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px; 
+  margin: 0 auto 10px auto; 
+  font-size: 18px;
+  background-color: lightblue;
+  color: blue;
+}
+
+.icon-purple {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px; 
+  margin: 0 auto 10px auto; 
+  font-size: 18px;
+  background-color: plum;
+  color: purple;
+}
+
+.icon-red {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px; 
+  margin: 0 auto 10px auto; 
+  font-size: 18px;
+  background-color: orange;
+  color: red;
+}
+
+.badge-blue {
+  background-color: rgb(110, 110, 255);
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 10px;
+  border: blue 5px;
+  font-size: 10px;
+}
+
+.badge-purple {
+  background-color: rgb(254, 123, 254);
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 10px;
+  border: purple 5px;
+  font-size: 10px;
+}
+
+.badge-red {
+  background-color: rgb(255, 124, 124);
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 10px;
+  border: red 5px;
+  font-size: 10px;
 }
